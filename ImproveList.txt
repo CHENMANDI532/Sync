@@ -1,0 +1,4 @@
+1. In main.py, each hist curve creates a new index. Ideally, theres is only one .
+   However, if we build the shibor curve for 20180820, then the curve building function build the index  
+   'Shibor'. Then if we build shibor curve for 20180821, 'Shibor' index for 20180821 will be created again,
+   which is by no means not neccesary.
